@@ -1,0 +1,46 @@
+.arced {
+  font-size:5rem;
+  font-weight: bold;
+  letter-spacing:0.1em;
+  line-height:1;
+  padding: 0.1em 0 0.1em;
+  text-shadow: 4px 5px 3px rgba(155, 191, 171, 0.298039);
+  text-align: center;
+}
+.arced > span {
+  display:inline-block;
+  font-family:futura-pt, 'Helvetica Neue', sans-serif;
+}
+.arced > span:nth-child(1) {
+  -webkit-transform:translateX(-1px) translateY(68px) rotate(-15deg);
+}
+.arced > span:nth-child(2) {
+  -webkit-transform:translateX(-3px) translateY(42px) rotate(-12deg);
+}
+.arced > span:nth-child(3) {
+  -webkit-transform:translateX(-3px) translateY(21px) rotate(-9deg);
+}
+.arced > span:nth-child(4) {
+  -webkit-transform:translateX(-2px) translateY(9px) rotate(-6deg);
+}
+.arced > span:nth-child(5) {
+  -webkit-transform:translateX(-1px) translateY(1px) rotate(-2deg);
+}
+.arced > span:nth-child(6) {
+  -webkit-transform:translateX(0px) translateY(0px) rotate(0deg);
+}
+.arced > span:nth-child(7) {
+  -webkit-transform:translateX(0px) translateY(1px) rotate(3deg);
+}
+.arced > span:nth-child(8) {
+  -webkit-transform:translateX(2px) translateY(9px) rotate(6deg);
+}
+.arced > span:nth-child(9) {
+  -webkit-transform:translateX(3px) translateY(21px) rotate(10deg);
+}
+.arced > span:nth-child(10) {
+  -webkit-transform:translateX(6px) translateY(40px) rotate(14deg);
+}
+.arced > span:nth-child(11) {
+  -webkit-transform:translateX(1px) translateY(68px) rotate(17deg);
+}

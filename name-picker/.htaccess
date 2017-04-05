@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^name\-picker\.lobsterdoodle\.co\.uk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.name\-picker\.lobsterdoodle\.co\.uk$
+RewriteRule ^/?$ "https\:\/\/play\.google\.com\/store\/apps\/details\?id\=uk\.scottydawg\.zoo\.staffpicker" [R=301,L]
+

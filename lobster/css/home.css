@@ -1,0 +1,136 @@
+/* Content */
+
+h1 {
+	font-family:futura-pt, 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	font-size: 2.5em;
+	letter-spacing:0.1em;
+	line-height:1;
+	text-shadow: 4px 5px 3px rgba(155, 191, 171, 0.298039);
+	text-align: center;
+	color:#DDDDDD;
+}
+
+.content {
+	padding-top: 0;
+}
+
+/* Post Style */
+
+.post {
+	padding: 0;
+	margin-bottom: 0;
+	width: 23.5%;
+}
+
+.post a {
+	padding: 10px 20px;
+	color: black;
+	display: block;
+  	overflow: auto;
+}
+
+.post a:link {
+	display:block;
+}
+
+.post a:hover {
+	background-color: rgba(173, 143, 91, 0.9);
+}
+
+.post img {
+	width: 50%;
+	display: block;
+	margin: 25px auto 0;
+	box-sizing: border-box;
+}
+
+.post h2 {
+	font-size: 2em;
+	margin-bottom: 15px
+}
+
+.post h3, .post h2, .post p {
+	width: 100%;
+	margin-right: 2%;
+	text-align: center;
+	box-sizing: border-box;
+} 
+
+.project {
+	font-weight:bold;
+	margin: 20px 0 0 0;
+}
+
+.no-pic h3, .no-pic p {
+	width: 100%;
+	float: none;
+}
+
+.even a:hover {
+	background-color: rgba(52, 161, 154, 0.7);
+}
+
+#about-icon {
+	background: url(../img/icon/about.svg) no-repeat;
+}
+
+#about-icon:hover {
+	background: url(../img/icon/about-hover.svg);
+}
+
+#contact-icon {
+	background: url(../img/icon/contact.svg) no-repeat;
+}
+
+#contact-icon:hover {
+	background: url(../img/icon/contact-hover.svg);
+}
+
+#mob-icon {
+	background: url(../img/icon/mob.svg) no-repeat;
+}
+
+#mob-icon:hover {
+	background: url(../img/icon/mob-hover.svg);
+}
+
+#web-icon {
+	background: url(../img/icon/web.svg) no-repeat;
+}
+
+#web-icon:hover {
+	background: url(../img/icon/web-hover.svg);
+}
+
+@media screen and (max-width: 1220px) {
+	.post h2 {
+		font-size: 1.7em
+	}
+}
+
+@media screen and (max-width: 825px) {
+	.post h2 {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.post h2 {
+		font-size: 1.4em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.post {
+		width: 100%;
+	}
+
+	.post a {
+		padding: 0px 20px;
+	}
+
+	.post img {
+		display: none;
+	}
+}

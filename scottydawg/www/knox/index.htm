@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/knox.css" type="text/css" media="screen" />
+<title>Knox's Rules</title>
+</head>
+
+<body>
+	<div id="container">
+		<h1>Knox's Rules</h1>
+		<p class="motto">Click on each rule for a full explination</p>
+
+		<h2>#1 - Don't get shot</h2>
+		<div>
+			<p>As obvious as it sounds, it really is the key.</p>
+			<p><em>Don’t get too close</em> in engagements unnecessarily, distant targets are harder to hit.</p>
+			<p>If you’re being shot at and not in a good position to return fire, then <em>take cover</em>.</p>
+			<p><em>Crouch down</em>, or often better yet, <em>lie down</em>. Smaller targets are harder to hit.</p>
+			<p><em>Use cover</em> where possible when crossing open areas.</p>
+			<p>Sprint only when necessary, it prevents your ability to return fire quickly.</p>
+		</div>
+
+		<h2>#2 - Short, controlled bursts</h2>
+		<div>
+			<p>Recoil is your enemy.</p>
+			<p>Burst fire allows for <em>less recoil</em>, greatly increasing accuracy.</p>
+			<p>By firing in burst, you will also <em>preserve ammo</em>, resulting in less reloads.</p>
+		</div>
+
+		<h2>#3 - Know your distance</h2>
+		<div>
+			<p>You'll need to know where to shoot.</p>
+			<p>Greater distance means you'll need a greater <em>lead</em> on a target and greater <em>bullet drop</em>.</p>
+		</div>
+
+		<h2>#4 - Keep a full mag</h2>
+		<div>
+			<p>To kill the enemy, you’ll want bullets, so keep an eye on your mag rounds.</p>
+			<p>If you’re <em>running low</em>, or if you <em>run out</em> of bullets, then reload.</p>
+			<p>If you’re <em>not in combat</em>, and can take <em>good cover</em>, then reload, even if you’ve only fired one round.</p>
+			<p>If you have <em>support</em> to protect you, and can take good cover, then reload.</p>
+		</div>
+
+		<h2>#5 - If in doubt, fall back</h2>
+		<div>
+			<p>Do not risk your life to hold ground that's not valuable.</p>
+			<p>Use <em>smoke grenades</em> to cover a retreat, or <em>flash bangs</em> / <em>concussion grenades</em> if available.</p>
+			<p><em>Suppression</em> can also buy you some time for a retreat.</p>
+		</div>
+
+		<h2>#6 - Keep them suppressed</h2>
+		<div>
+			<p>It’s difficult to shoot and kill while being shot at.</p>
+			<p>Fire <em>towards</em> a target to prevent him from <em>returning fire</em> or <em>advancing</em>.</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript">
+		$("#container div").hide();
+		$("h2").click(function() {
+			var $h = $(this);
+			if ($h.next().is(":visible")) {
+				$h.next().hide("slow");
+			}
+			if ($h.next().is(":hidden")) {
+				$("#container div").hide("slow");
+				$h.next().show("slow");
+			};
+		});
+		$("h1").click(function() {
+			$("#container div").hide();
+		});
+	</script>
+</body>
+</html>

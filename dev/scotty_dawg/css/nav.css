@@ -1,0 +1,179 @@
+header {
+	width: 100%;
+	background: #EEEEEE url('../img/light_noise_diagonal.png');
+	height: 100px;
+	padding: 0;
+}
+
+header div {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+#logo {
+	height: 95%;
+}
+
+#hidden-logo{
+	display: none;
+}
+
+/* Navigation */
+
+header ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+header ul li {
+	height: 100%;
+	float: left;
+	margin: 15px 40px 0 0;
+}
+
+header ul li a {
+	height: 100%;
+	padding: 5px 15px 5px;
+	color: #444;
+	vertical-align: middle;
+}
+
+header ul li a img {
+	display: block;
+	height: 50%;
+	margin:  0 auto 5px;
+}
+
+header ul li a img:hover {
+	height: 55%;
+}
+
+header ul li a p {
+	margin: 0;
+}
+
+header ul li.center {
+	margin-top: 0;
+}
+
+header ul li.center a {
+	background: none;
+	border: none;
+	padding: 0;
+	line-height: 0;
+}
+header ul li.center a img {
+	padding: 0px 15px 5px;
+	background: none;
+	color: #FFFFFF;
+}
+
+header ul li.center a img:hover {
+	height: 55%;
+}
+
+header ul li.center a:hover {
+	background-color: none;
+}
+
+#small_nav {
+	display: none;
+}
+
+#small_nav li {
+	margin: 0;
+}
+
+#small_nav li.last {
+	margin: 0 0 0 40px;
+}
+
+#small_nav li a {
+	padding: 0;
+}
+
+#small_nav li a p {
+	display: block;
+	padding: 5px 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+	header ul li {
+		margin-right: 30px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+
+	header ul li {
+		margin-right: 20px;
+	}
+}
+
+@media screen and (max-width: 825px) {
+
+	header {
+		height: 150px;
+	}
+
+	#logo {
+		display: none;
+	}
+
+	#hidden-logo{
+		display: block;
+		margin: auto;
+		height: 60% 
+	}
+
+	header ul li p {
+		display: inline;
+	}
+
+	.icon {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 700px) {
+
+	header ul li a p {
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 610px) {
+
+	header ul li {
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+
+	header ul li {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 550px) {
+
+	header ul {
+		display: none;
+	}
+
+	#small_nav {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 480px) {
+
+	#small_nav li.last {
+		margin: 0 0 0 20px;
+	}
+}

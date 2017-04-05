@@ -1,0 +1,17 @@
+﻿#container {
+	width:50em;
+	margin: auto;
+}
+
+h1, p {
+	font-family:Tahoma, Geneva, sans-serif;
+}
+
+p {
+	font-size:0.8em;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:underline;}
+a:active {text-decoration:underline;}

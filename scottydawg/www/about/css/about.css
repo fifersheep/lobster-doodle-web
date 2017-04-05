@@ -1,0 +1,15 @@
+﻿/* Title */
+
+h1.title {
+	font-family:futura-pt, 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  letter-spacing:0.1em;
+  line-height:1;
+  text-shadow: 4px 5px 3px rgba(155, 191, 171, 0.298039);
+  text-align: center;
+  color:#DDDDDD;
+}
+
+/* Content */
+

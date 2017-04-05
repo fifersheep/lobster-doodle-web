@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/styling.css" />
+<script type="text/javascript">
+	function show_alert(){
+		alert("Warning!");
+	}
+</script>
+</head>
+
+<body>
+	<div id="container">
+		<!-- Introduction - Writing from external js file -->
+		<script type="text/javascript" src="js/document-writing.js"></script>
+		<hr />
+		
+		<!-- Using Variables -->
+		<h1>Using variables in JavaScript</h1>
+		<script type="text/javascript">
+			var x = 5;
+			var y = 10
+			var z = x + y;
+			
+			document.write("<p>The letter &quot;x&quot; has been assigned the value of 5<br />");
+			document.write("The letter &quot;y&quot; has been assigned the value of 10<br />");
+			document.write("If we then assign the value of &quot;z&quot; as &quot;x plus y&quot; we get an answer of " + z + " </p>");
+			
+			sentence1 = "This is sentence 1. ";
+			sentence2 = "This is sentence 2. ";
+			sentence3 = sentence1 + sentence2;
+			
+			document.write("<p>If we add two sentences together this is what the result would be: <br />");
+			document.write(sentence3 + "</p>");
+		</script>
+		<hr />
+		
+		<!-- If Statements -->
+		<h1>Using IF to display time/date</h1>
+		<p>Here we look at the current time of day to display a message which corresponds to that 
+			time of day, along with a time stamp.</p>
+		<script type="text/javascript">
+			var d = new Date();
+			var hour = d.getHours();
+
+			if (hour < 12){
+  				document.write("<p>Good morning!");
+			}
+			else if (hour > 12 && hour < 18){
+ 				document.write("<p>Good afternoon!");
+			}
+			else{
+				document.write("<p>Good evening!");
+			}
+			
+			document.write(" Here is the current time stamp: <b>" + d + "</b></p>");
+		</script>
+		<hr />
+		
+		<!-- Case statement -->
+		<h1>Using Case Statements to look forward to the weekend</h1>
+		<p>In this section we work out which day of the week it is, and display 
+		a corresponding message.<br /><br />If it&#39;s Friday: Finally Friday!<br />
+			For Saturday: Super Saturday!<br />
+			For Sunday: Sleepy Sunday...<br />
+			Any other day: Looking forward to the Weekend!<br /><br />
+			The result is: 
+		<script type="text/javascript">
+			var d = new Date();
+			var day = d.getDay();
+			
+			switch (day){
+			case 5:
+				document.write("Finally Friday!");
+				break;
+			case 6:
+				document.write("Super Saturday!");
+				break;
+			case 7:
+				document.write("Sleepy Sunday...");
+				break;
+			default:
+				document.write("Looking forward to the Weekend!");
+			}
+		</script></p>
+		<hr />
+		
+		<!-- Buttons & Pop-ups -->
+		<h1>Using buttons and pop-up messages</h1>
+		<p>Here we have a button to display a pop-up warning message:</p>
+		<input type="button" onclick="show_alert()" value="Display warning message" />
+
+	</div><!-- End Container -->
+</body>
+
+</html>

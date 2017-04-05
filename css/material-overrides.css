@@ -1,0 +1,31 @@
+main {
+    background-color: #F5F5F5;
+    padding: 16px;
+}
+main > .mdl-grid {
+    max-width: 1440px;
+}
+.home-card > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../assets/coding-banner.jpg') center / cover;
+    padding: 0
+}
+@media (max-width: 1024px) {
+    .home-card > .mdl-card__title {
+        height: 152px;
+    }
+}
+@media (max-width: 375px) {
+    .home-card > .mdl-card__title {
+        height: 132px;
+    }
+}
+.home-card > .mdl-card__title > .mdl-card__title-text {
+    width: 100%;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.home-card > .mdl-card__menu {
+    color: #fff;
+}

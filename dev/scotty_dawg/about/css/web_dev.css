@@ -1,0 +1,72 @@
+﻿/* Content */
+
+h1 {
+	font-family:futura-pt, 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 2.5em;
+  letter-spacing:0.1em;
+  line-height:1;
+  text-shadow: 4px 5px 3px rgba(155, 191, 171, 0.298039);
+  text-align: center;
+  color:#DDDDDD;
+}
+
+.content {
+	padding-top: 0;
+}
+
+/* Post Style */
+
+.post {
+	padding: 0;
+	border-bottom: 1px #777 solid;
+}
+
+.post a {
+	padding: 10px 20px;
+	color: black;
+	display: block;
+  overflow: auto;
+}
+
+.post a:link {
+	display:block;
+}
+
+.post a:hover {
+	background-color: rgba(180, 180, 180, 0.2);
+}
+
+.post img {
+	width: 30%;
+	margin: 25px 20px 10px 0;
+	box-sizing: border-box;
+}
+
+.post h3, .post p {
+	width: 65%;
+	margin-right: 2%;
+	float: left;
+	box-sizing: border-box;
+} 
+
+.project {
+	font-weight:bold;
+	margin: 20px 0 0 0;
+}
+
+.no-pic h3, .no-pic p {
+	width: 100%;
+	float: none;
+}
+
+@media screen and (max-width: 1050px) {
+
+	.post h3, .post p {
+		width: 100%;
+	} 
+
+	.post img {
+		display: none;
+	}
+}

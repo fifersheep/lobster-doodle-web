@@ -1,0 +1,59 @@
+/* Global */
+
+body {
+	background-color: #990033;
+}
+
+#emblem-header {
+	width: 100%;
+	max-width: 1000px;
+	display: block;
+	margin: 5px auto 15px;
+}
+
+#header {
+	display: none;
+}
+
+div.container div {
+	background: #FFF;
+}
+
+div.content {
+	margin: 5px 0 0;
+	padding: 10px;
+}
+
+#motto {
+	width: 100%;
+	max-width: 1000px;
+	margin: 1px auto 5px;
+	padding: 0;
+	float: right;
+}
+
+/* Typography */
+
+h2 {
+	text-align: center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1100px) {
+	#emblem-header, .container {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#emblem-header {
+		display: none;
+	}
+
+	#header {
+		width: 90%;
+		display: block;
+		margin: 5px auto 15px;
+	}
+}
