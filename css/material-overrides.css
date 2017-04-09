@@ -1,8 +1,8 @@
-main {
+body {
     background-color: #F5F5F5;
-    padding: 16px;
 }
 main > .mdl-grid {
+    padding: 16px;
     max-width: 1232px;
 }
 .home-card > .mdl-card__title {
@@ -28,4 +28,10 @@ main > .mdl-grid {
 }
 .home-card > .mdl-card__menu {
     color: #fff;
+}
+.lobster-doodle-footer {
+    padding-left: 40px;
+}
+.lobster-doodle-footer .mdl-mini-footer--link-list a {
+    font-size: 13px;
 }
