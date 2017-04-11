@@ -5,6 +5,13 @@ main > .mdl-grid {
     padding: 16px;
     max-width: 1232px;
 }
+
+.mdl-layout__content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
 .home-card > .mdl-card__title {
     color: #fff;
     height: 176px;
