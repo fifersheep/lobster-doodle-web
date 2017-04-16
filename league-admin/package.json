@@ -1,0 +1,15 @@
+{
+  "name": "firebase-database-league-admin",
+  "version": "1.0.0",
+  "description": "Firebase Node.js Database League Admin",
+  "main": "index.js",
+  "author": "fifersheep@gmail.com",
+  "license": "Apache License Version 2.0",
+  "dependencies": {
+    "escape-html": "^1.0.3",
+    "firebase-admin": "^4.2.1",
+    "node-schedule": "^1.1.0",
+    "nodemailer": "^2.4.1",
+    "promise": "^7.1.1"
+  }
+}
