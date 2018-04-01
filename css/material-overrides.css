@@ -18,6 +18,9 @@ main > .mdl-grid {
     background: url('../assets/coding-banner.jpg') center / cover;
     padding: 0
 }
+#web {
+    background: url('../assets/screencap-web.jpeg') center / cover;
+}
 @media (max-width: 1024px) {
     .home-card > .mdl-card__title {
         height: 152px;
